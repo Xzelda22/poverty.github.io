@@ -1,0 +1,68 @@
+/* 
+font-family: "Mynerve", cursive;
+font-family: "Source Serif Pro", serif; 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: "Source Serif Pro", serif;
+}
+
+.nav {
+  width: 68.5%;
+  margin: 5% 5% 5%;
+  background-color: rgb(223, 216, 216);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: none;
+  text-align: center;
+  padding-top: 10px;
+  width: 8%;
+  height: 3vh;
+  border: 1px solid black;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.pages {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.page_1 {
+  border: 2px solid black;
+  width: 30%;
+  height: 50vh;
+  margin-left: 5%;
+  padding: 2%;
+}
+
+.page_2 {
+  border: 2px solid black;
+  width: 30%;
+  height: 50vh;
+  margin-right: 5%;
+  padding: 2%;
+}
+
+.img1 {
+  width: 50%;
+  height: 20vh;
+  margin-top: 6%;
+  border: 1px solid black;
+}
+
+.info1 {
+  width: 50%;
+  height: 20vh;
+}
