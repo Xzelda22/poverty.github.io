@@ -62,7 +62,21 @@ li a {
   border: 1px solid black;
 }
 
+.img2{
+  width: 50%;
+  height: 20vh;
+  margin-top: 6%;
+  margin-left: 50%;
+  border: 1px solid black;
+}
+
 .info1 {
   width: 50%;
   height: 20vh;
+  padding-top: 2%;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
 }
