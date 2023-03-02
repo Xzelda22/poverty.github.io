@@ -1,8 +1,1 @@
-。　　•　 　ﾟ。・・・・・.・・.
-　　.　.　　　 .　　　　・。　。.
-　.　　 。　 ඞ 。　 . •
-•Red was An Impostor •.
-.•     °     .      °    °    °   °
-.    0 Impostor remains       °
-
-　　ﾟ    .     °   •      •    °.
+ඞ sussy boi ඞ
