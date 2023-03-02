@@ -76,7 +76,33 @@ li a {
   padding-top: 2%;
 }
 
-.buttons{
-  display: flex;
-  justify-content: center;
+.left_arrow{
+  margin-left: 28%;
+  border-radius: 10px;
+}
+
+#left{
+  border-radius: 10px;
+  background-color: rgb(199, 199, 199);
+  transition: 0.9s;
+}
+
+#left:hover{
+  background-color: white;
+  transition: 0.8s;
+}
+
+.right_arrow{
+  margin-left: 13%;
+}
+
+#right{
+  border-radius: 10px;
+  background-color: rgb(199, 199, 199);
+  transition: 0.9s;
+}
+
+#right:hover{
+  background-color: white;
+  transition: 0.8s;
 }
