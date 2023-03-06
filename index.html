@@ -1,77 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TheYangonTimes</title>
-    <link rel="icon" href="img/YangonTimes_favicon.png" type="image/icon type">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mynerve&family=Source+Serif+Pro:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div>
-      <ul class="nav">
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-        <li><a href="#">Page 4</a></li>
-        <li><a href="#">Page 5</a></li>
-      </ul>
-    </div>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/YangonTimes_favicon.png" type="image/icon type">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mynerve&family=Source+Serif+Pro:wght@300&display=swap"
+            rel="stylesheet"
+          />
+        <title>TheYangonTimes</title>
+        <script src="./js/main.js" defer></script>
+      </head>
+<body>
+    <!-- back button -->
+    <button id="prev_btn">
+        <img src="img/arrow_left.svg" width="50px" height="50px"/>
+    </button>
 
-    <div class="pages">
-      <div class="page_1">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
-          recusandae dolore molestiae tenetur illum possimus corrupti quam
-          incidunt minus error at, tempore, doloremque magnam maiores facere
-          nulla beatae dignissimos in.
-        </p>
-
-        <div class="img1">
-          <img src="img/box_2.png" width="100%" height="100%" />
+    <!-- the newspaper -->
+    <div id="book" class="book">
+        <!-- page 1 -->
+        <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    <h1>Book Cover</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <h1>Page 1</h1>
+                </div>
+            </div>
         </div>
 
-        <div class="info1">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
-            veniam quisquam? Ratione magnam maxime possimus quod voluptatem
-          </p>
+        <!-- page 2 -->
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <h1>Page 2</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <h1>Page 3</h1>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="page_2">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-          optio hic id in iusto quas mollitia tenetur, suscipit error aliquid
-          autem cum nobis obcaecati earum eaque recusandae possimus asperiores
-          ex?
-        </p>
 
-        <div class="img2">
-          <img src="img/box_2.png" width="100%" height="100%" />
+        <!-- page 3 -->
+        <div id="p3" class="paper">
+            <div class="front">
+                <div id="f3" class="front-content">
+                    <h1>Page 4</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b3" class="back-content">
+                    <h1>Book Cover</h1>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <div class="page_turn">
-      <div class="left_arrow">
-        <button id="left">
-          <img src="img/arrow_left.svg" width="60px" height="60px" />
-        </button>
-      </div>
+    <!-- next button -->
+    <button id="next_btn">
+        <img src="img/arrow_right.svg" width="50px" height="50px"/>
+    </button>
 
-      <div class="right_arrow">
-        <button id="right">
-          <img src="img/arrow_right.svg" width="60px" height="60px" />
-        </button>
-      </div>
-    </div>
 
-    <script type="text/javascript" src="form.js"></script>
-  </body>
+
+</body>
 </html>
