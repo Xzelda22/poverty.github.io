@@ -7,15 +7,15 @@
 body {
   height: 100vh;
   font-family: sans-serif;
+  background-image: url(img/paper_background.png);
   background-color: beige;
 }
 
 /* icon */
-.icon{
+.icon {
   justify-content: center;
   display: flex;
 }
-
 
 /* newspaper section */
 .newspaper {
@@ -75,12 +75,12 @@ body {
   border-left: 2px solid black;
 }
 
-.front-content{
-  height: ;
+.front-content {
   display: table-row;
+  border: 1px solid black;
 }
 
-.front-content h3{
+.front-content h3 {
   padding: 5%;
 }
 
@@ -92,7 +92,7 @@ body {
 .back-content {
   width: 100%;
   height: 100%;
-  display: flex;
+  /* display: flex; */
   /* justify-content: center;
   align-items: center; */
 }
@@ -110,7 +110,6 @@ button {
   cursor: pointer;
   margin: 10px;
   transition: transform 0.5s;
-  background-color: beige;
 }
 
 button:focus {
@@ -145,15 +144,33 @@ img {
   z-index: 1;
 }
 
-
-/* footer */
-footer{
-  height: auto;
-  width: 100%;
-  margin-top: 7%;
+.box_2 {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.footer-content{
+.section_1 {
+  width: 100%;
+  height: 30vh;
+  margin-top: 1%;
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+}
+
+.section_1 p {
+  font-size: 30px;
+  padding-top: 6%;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  height: auto;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.footer-content {
   display: flex;
   align-items: center;
   text-align: center;
@@ -161,25 +178,25 @@ footer{
   flex-direction: column;
 }
 
-.footer-content p{
+.footer-content p {
   padding: 10px;
   font-size: 20px;
 }
 
-.links{
+.links {
   list-style: none;
   border-radius: 50%;
   transition: 0.5s;
 }
 
-.links:hover{
+.links:hover {
   background-color: white;
   opacity: 60%;
   border-radius: 45%;
   transition: 0.5s;
 }
 
-.footer-bottom p{
+.footer-bottom p {
   font-size: 17px;
   color: gray;
 }
