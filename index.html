@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/YangonTimes_favicon.png" type="image/icon" />
+    <title>TheYangonTimes</title>
+
+    <link rel="icon" href="img/YangonTimes_Icon.png" type="image/icon" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,18 +16,17 @@
       rel="stylesheet"
     />
 
-    <title>TheYangonTimes</title>
     <script src="./js/main.js" defer></script>
   </head>
   <body>
     <!-- le logo -->
     <div class="icon">
       <img
-        src="img/YangonTimes_favicon.png"
+        src="img/YangonTimes_Icon.png"
         alt=""
         class="logo"
-        width="180px"
-        height="120px"
+        width="200px"
+        height="140px"
       />
     </div>
     <!-- le logo -->
@@ -46,22 +48,26 @@
         <div id="p1" class="paper">
           <div class="front">
             <div id="f1" class="front-content">
-              <h3>
-                Around 40% of Myanmar's Population Plunged Into Poverty in 2022:
-                World Bank.
+              <h3 id="main_title1">
+                How bad has poverty become over the years in the Myanmar?
               </h3>
-              <div class="box_2">
-                <img src="img/box_2.png" width="100px" height="100px" />
+              <div class="cover_img1">
+                <img id="cover_img1" src="img/myanmar_flag.jpg" width="380px" height="220px" />
               </div>
               <br />
-              <h4></h4>
-              <br />
-              <h4></h4>
+              <h3 id="subtitle1">
+                <i>"About 40 percent of the population is living below the national poverty line in 2022"</i> -World Bank.  
+              </h3>
             </div>
           </div>
           <div class="back">
             <div id="b1" class="back-content">
-              <h1>Page 1</h1>
+              <div><img src="img/miserable_children.jpg" alt="" id="cover_img2"></div>
+              <h3>
+                <i>"Around 40 per cent of Myanmar’s 55 million population have dropped into poverty less than 18 months after last year’s coup, reaching a poverty rate that Myanmar has not seen for at least 15 years"</i> -The Irrawaddy
+              </h3>
+              <div class="btn_link"><button><a id="btn_link1" href="http://bit.ly/3IZbdMS">Read more(source)</a></button></div>
+              
             </div>
           </div>
         </div>
@@ -70,12 +76,14 @@
         <div id="p2" class="paper">
           <div class="front">
             <div id="f2" class="front-content">
-              <h1>Page 2</h1>
+              <h1>Children and families living and growing up in poverty and low-income households experience many disadvantages.
+                These can have negative health and social consequences during childhood and into adulthood.</h1>
             </div>
           </div>
           <div class="back">
             <div id="b1" class="back-content">
-              <h1>Page 3</h1>
+              <h1>Living in poverty tends to have a lot of side effects for children. Such as poorer health, lack of education,
+                poor living conditions, stress of constantly wondering if they will be able to eat/live tomorrow, and social issues.</h1>
             </div>
           </div>
         </div>
@@ -106,14 +114,6 @@
       </button>
       <!-- next button -->
     </div>
-
-    <!-- section 1 -->
-
-    <div class="section_1">
-      <p>yay section</p>
-    </div>
-
-    <!-- section 1 -->
 
     <!-- footer -->
     <footer>

@@ -31,6 +31,7 @@ body {
   height: 600px;
   /* adjust the book size here */
   transition: transform 0.5s;
+  
 }
 
 .paper {
@@ -48,7 +49,7 @@ body {
 
 .front,
 .back {
-  background-color: white;
+  background-color: beige;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -66,25 +67,27 @@ body {
   z-index: 1;
   /* z-index so that the front page stays on top of the back page */
 
-  border-left: 2px solid black;
+  /* border-left: 2px solid black; */
 }
 
 .back {
   z-index: 0;
-
-  border-left: 2px solid black;
+  /* border-left: 2px solid black; */
 }
 
+/* all pages */
 .front-content {
   display: table-row;
   border: 1px solid black;
 }
 
-.front-content h3 {
-  padding: 5%;
+.front-content h3, .back-content h3 {
+  padding: 0 2% 0 2%;
+  font-size: 17px;
+  text-align: center;
 }
 
-.back-content {
+.back-content{
   transform: rotateY(180deg);
 }
 
@@ -102,6 +105,59 @@ body {
 .flipped .back {
   transform: rotateY(-180deg);
 }
+
+/* page 1/cover page */
+#main_title1{
+  padding-top: 3%;
+  font-size: 19px;
+}
+
+#subtitle1{
+  margin-top: 20%;
+}
+
+/* myanmar flag one */
+#cover_img1{
+  border-radius: 10%;
+  transition: 0.7s;
+}
+
+#cover_img1:hover{
+  border-radius: 0;
+  transition: 2s;
+}
+
+/* page 2 */
+.btn_link{
+  width: 100%;
+  text-align: right;
+  transition: 0.2s;
+}
+
+.btn_link:hover{
+  opacity: 70%;
+  transition: 0.5s;
+}
+
+.cover_img1{
+  padding: 25% 0 0 13%;
+}
+
+/* the miserable children one */
+#cover_img2{
+  width: 450px;
+  height: 270px;
+  padding: 3% 0 3% 10%;
+}
+
+#btn_link1{
+  text-decoration: none;
+  color: black;
+}
+
+/* page 3 */
+
+
 
 /* button mods */
 button {
@@ -167,7 +223,7 @@ img {
 footer {
   height: auto;
   width: 100%;
-  margin-top: 1%;
+  margin-top: 4%;
 }
 
 .footer-content {
@@ -184,6 +240,7 @@ footer {
 }
 
 .links {
+  padding: 0.5%;
   list-style: none;
   border-radius: 50%;
   transition: 0.5s;
