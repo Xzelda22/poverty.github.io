@@ -15,6 +15,7 @@ body {
 .icon {
   justify-content: center;
   display: flex;
+  padding: 2%;
 }
 
 /* newspaper section */
@@ -215,19 +216,19 @@ img {
   text-align: center;
 }
 
-/* navigation bar */
+/* navigation bar (page1)*/
 .nav{
   width: 85%;
   margin-left: 8%;
 }
 
-ul{
+.page1_nav{
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
 
-li{
+.nav_page1{
   width: 7%;
   height: 4vh;
   text-align: center;
@@ -235,7 +236,7 @@ li{
   border: 1px solid black;
 }
 
-li a{
+.nav_page1 a{
   font-size: 20px;
   padding-top: 4px;
   height: 4vh;
@@ -245,12 +246,12 @@ li a{
   transition: 0.5s;
 }
 
-li a:hover{
+.nav_page1 a:hover{
   background-color: rgb(189, 171, 148);
   transition: 0.5s;
 }
 
-/* information page */
+/* information page/page 1*/
 #i1{
   width: 85%;
   height: 60vh;
@@ -289,6 +290,11 @@ footer {
   list-style: none;
   border-radius: 50%;
   transition: 0.5s;
+}
+
+.links li a{
+  border: none;
+  list-style: none;
 }
 
 .links:hover {
