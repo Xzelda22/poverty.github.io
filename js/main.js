@@ -91,4 +91,5 @@ function goPrevPage() {
     }
     currentLocation--;
   }
-}
+};
+

@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
 
-    <script src="./js/main.js" defer></script>
+    <script src="../js/main.js" defer></script>
   </head>
   <body>
     <!-- le logo -->
@@ -35,11 +35,11 @@
 
     <nav class="nav">
         <ul class="page1_nav">
-            <li class="nav_page1"><a href="../index.html">Home</a></li>
-            <li class="nav_page1"><a href="#">Info 1</a></li>
-            <li class="nav_page1"><a href="#">Info 2</a></li>
-            <li class="nav_page1"><a href="#">Info 3</a></li>
-            <li class="nav_page1"><a href="#">Info 4</a></li>
+            <a href="../index.html" class="nav_page1">Home</a>
+            <button class="nav_page1" id="first">Info 1</button>
+            <button class="nav_page1" id="second">Info 2</button>
+            <button class="nav_page1" id="third">Info 3</button>
+            <button class="nav_page1" id="fourth">Info 4</button>
         </ul>
     </nav>
 
@@ -48,10 +48,20 @@
 
     <!-- info 1 -->
 
-    <div id="i1">
+    <div id="i1" class="information">
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, voluptatem pariatur accusantium neque architecto ad harum modi! Omnis delectus quas mollitia incidunt ullam ab eum corrupti quae, laborum cupiditate? Earum.
         </p>
+    </div>
+
+    <div id="i2" class="information" style="display: none;">
+      <p>DEEZ NUTS</p>
+    </div>
+    <div id="i3" class="information" style="display: none;">
+      <p>GIVE TO ME YOUR PEANUTS</div>
+    </div>
+    <div id="i4" class="information" style="display: none;">
+      <p>TO BE OR NOT TO BE</div>
     </div>
 
      <!-- info 1 -->
@@ -64,7 +74,8 @@
         <p>We created this website in the cause of raising poverty awareness</p>
         <ul class="links">
           <li>
-            <a href="#"
+            <a href="donate.html" 
+            target="_blank"
               ><img
                 src="../img/donate.svg"
                 alt="Donate button"
@@ -80,3 +91,50 @@
     </footer>
   </body>
 </html>
+
+<script>
+
+  // start of the stupid buttons
+
+
+var einsBTN = document.getElementById("first");
+var zweiBTN = document.getElementById("second");
+var dreiBTN = document.getElementById("third");
+var vierBTN = document.getElementById("fourth");
+
+var eins = document.getElementById("i1");
+var zwei = document.getElementById("i2");
+var drei = document.getElementById("i3");
+var vier = document.getElementById("i4");
+
+document.getElementById("first").addEventListener("click", function() {
+  document.getElementById("i1").style.display = "flex";
+  document.getElementById("i2").style.display = "none";
+  document.getElementById("i3").style.display = "none";
+  document.getElementById("i4").style.display = "none";
+
+
+});
+
+zweiBTN.addEventListener("click", function() {
+  document.getElementById("i1").style.display = "none";
+  document.getElementById("i2").style.display = "flex";
+  document.getElementById("i3").style.display = "none";
+  document.getElementById("i4").style.display = "none";
+});
+
+dreiBTN.addEventListener("click", function() {
+  document.getElementById("i1").style.display = "none";
+  document.getElementById("i2").style.display = "none";
+  document.getElementById("i3").style.display = "flex";
+  document.getElementById("i4").style.display = "none";
+});
+
+vierBTN.addEventListener("click", function() {
+  document.getElementById("i1").style.display = "none";
+  document.getElementById("i2").style.display = "none";
+  document.getElementById("i3").style.display = "none";
+  document.getElementById("i4").style.display = "flex";
+});
+
+</script>

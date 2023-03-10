@@ -176,14 +176,14 @@ body {
 
 
 /* page 2 */
-#f2 h3{
-  padding-top: 3%;
+#f2 h2{
+  /* padding-top: 3%; */
   text-align: center;
 }
 
 .p2{
   width: 100%;
-  top: 75%;
+  top: 70%;
   position: absolute;
   padding: 0 5% 0 3%;
   display: flex;
@@ -256,36 +256,34 @@ img {
 }
 
 .page1_nav{
-  list-style-type: none;
+  gap: 2%;
   display: flex;
   justify-content: center;
 }
 
 .nav_page1{
-  width: 7%;
-  height: 4vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0.3% 0.8%;
   text-align: center;
-  margin-left: 3%;
   border: 1px solid black;
-}
-
-.nav_page1 a{
-  font-size: 20px;
-  padding-top: 4px;
-  height: 4vh;
-  color: black;
-  text-decoration: none;
-  display: block;
   transition: 0.5s;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 1.069em;
 }
 
-.nav_page1 a:hover{
+.nav_page1:hover{
   background-color: rgb(189, 171, 148);
   transition: 0.5s;
 }
 
 /* information page/page 1*/
-#i1{
+.information {
   width: 85%;
   height: 60vh;
   margin-left: 8%;
@@ -294,7 +292,7 @@ img {
   border: 1px solid black;
 }
 
-#i1 p{
+.information p{
   font-size: 16px;
 }
 
@@ -341,3 +339,26 @@ footer {
   font-size: 17px;
 }
 
+.form{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20%;
+}
+
+.Donate_form2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  padding: 1%; 
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.25s ease-in-out background-color;
+}
+
+.buttons:hover {
+  background-color: #f2f2f2;
+}
