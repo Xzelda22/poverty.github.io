@@ -107,7 +107,7 @@ body {
   transform: rotateY(-180deg);
 }
 
-/* page 1/cover page */
+/* cover page */
 #main_title1{
   padding-top: 3%;
   font-size: 19px;
@@ -128,11 +128,14 @@ body {
   transition: 2s;
 }
 
-/* page 2 */
+.cover_img1{
+  padding: 25% 0 0 13%;
+}
+
+/* page 1 */
 .btn_link{
-  width: 100%;
-  text-align: right;
-  transition: 0.2s;
+  left: 68%;
+  position: absolute;
 }
 
 .btn_link:hover{
@@ -140,8 +143,28 @@ body {
   transition: 0.5s;
 }
 
-.cover_img1{
-  padding: 25% 0 0 13%;
+#btn_link1{
+  width: 100%;
+  text-decoration: underline;
+  color: black;
+  /* margin-right: 1%; */
+}
+
+.p1{
+  width: 70%;
+  top: 70%;
+  position: absolute;
+  padding: 0 5% 0 2%;
+}
+
+.p1 p{
+  text-align: end;
+}
+
+.p1 img{
+  position: absolute;
+  left: 96%;
+  top: 10%;
 }
 
 /* the miserable children one */
@@ -151,15 +174,25 @@ body {
   padding: 3% 0 3% 10%;
 }
 
-#btn_link1{
-  text-decoration: none;
-  color: black;
-  margin-right: 1%;
+
+/* page 2 */
+#f2 h3{
+  padding-top: 3%;
+  text-align: center;
 }
 
-/* page 3 */
+.p2{
+  width: 100%;
+  top: 75%;
+  position: absolute;
+  padding: 0 5% 0 3%;
+  display: flex;
+} 
 
-
+.p2 p{
+  text-align: start;
+  padding-left: 2%;
+}
 
 /* button mods */
 button {
@@ -306,5 +339,5 @@ footer {
 
 .footer-bottom p {
   font-size: 17px;
-  color: gray;
 }
+
