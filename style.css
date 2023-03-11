@@ -194,6 +194,76 @@ body {
   padding-left: 2%;
 }
 
+/* page 3 */
+#b2{
+  padding: 0.9em;
+  width: 100%;
+}
+
+#b2 p{
+  padding: 2em 0 2em 0;
+}
+
+#b2 img{
+  float: right;
+  position: relative;
+}
+
+.p3{
+  position: absolute;
+  top: 69%;
+}
+
+.p3 p{
+  text-align: end;
+}
+
+/* page 4 */
+#f3{
+  position: relative;
+}
+
+#f3 h3{
+  text-align: justify;
+  padding: 3em 2em 1em 2em;
+}
+
+/* back cover page */
+#b3{
+  width: 100%;
+  text-align: center;
+}
+
+#b3 h1{
+  padding-top: 1%;
+}
+
+#b3 p{
+  top: 88%;
+  position: absolute;
+}
+
+.donation{
+  width: 100%;
+  align-items: center;
+  top: 40%;
+  position: absolute;
+}
+
+.donation a img{
+  border: 1px solid black;
+  border-radius: 40%;
+  padding: 2%;
+  transition: 2s;
+  background-color: lightblue;
+}
+
+.donation a img:hover{
+  border-radius: 25%;
+  transition: 2s;
+  background-color: white;
+}
+
 /* button mods */
 button {
   border: none;
