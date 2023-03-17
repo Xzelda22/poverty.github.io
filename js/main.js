@@ -92,4 +92,3 @@ function goPrevPage() {
     currentLocation--;
   }
 };
-
