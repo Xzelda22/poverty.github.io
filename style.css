@@ -428,26 +428,54 @@ footer {
 
 .form_container form{
   padding: 2em;
-  width: 46vw;
+  width: 45vw;
   background: beige;
-  display: flex
 }
 
 .row{
   display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
-.form_container form .row .column{
-  display: 1 1 250px;
+.column{
+  flex: 1 1 250px;
+}
+
+.input{
+  padding: 2%;
+}
+
+.input span{
+  display: block;
+}
+
+.input input{
+  width: 100%;
+  border: 1px solid #ccc;
+padding: 0.6em;
+  text-transform: none;
+}
+
+.input input:focus{
+  border:1px solid #000;
 }
 
 .input img{
   width: 3.5em;
   height: 2.5em;
 }
+
+#disclaimer{
+  font-size: 0.9em;
+}
+
 .submit{
-  padding: 0.4em;
-  background-color: gray;
+  width: 98%;
+  padding:12px;
+  background: bisque;
+  margin-top: 5px;
+  cursor: pointer;
   transition: 0.4s;
 }
 
@@ -457,7 +485,7 @@ footer {
 }
 
 .submit:hover{
-  background-color: white;
+  background: rgb(247, 242, 203);
   transition: 0.4s;
 }
 
