@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Roboto Slab', serif;
   background-image: url(img/paper_background.png);
   background-color: beige;
 }
@@ -178,9 +178,10 @@ body {
 
 /* page 2 */
 #f2 h2{
-  padding-top: 1.5%;
-  padding-bottom: 0.3%;
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;
   text-align: center;
+  text-decoration: underline;
 }
 
 .p2{
@@ -213,7 +214,7 @@ body {
 
 .p3{
   position: absolute;
-  top: 69%;
+  top: 75%;
 }
 
 .p3 p{
@@ -350,14 +351,15 @@ img {
   transition: 0.5s;
 }
 
-/* information page/page 1*/
+/* information page*/
 .information {
   width: 85%;
   height: 60vh;
   margin-left: 8%;
   margin-top: 1%;
   padding: 2%;
-  border: 1px solid black;
+  background-color: beige;
+  flex-direction: column;
 }
 
 .information p{
@@ -398,7 +400,6 @@ footer {
 
 .links:hover {
   background-color: white;
-  opacity: 60%;
   border-radius: 45%;
   transition: 0.5s;
 }
