@@ -343,7 +343,7 @@ img {
   justify-content: center;
   align-items: center;
   margin: 0;
-  font-size: 1.069em;
+  font-size: 1.2em;
 }
 
 .nav_page1:hover{
@@ -360,10 +360,15 @@ img {
   padding: 2%;
   background-color: beige;
   flex-direction: column;
+  
 }
 
 .information p{
   font-size: 16px;
+}
+
+#i1 #i2 #i3 #i4{
+  transition: 1s;
 }
 
 /* footer */
