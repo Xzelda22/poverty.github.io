@@ -431,7 +431,7 @@ img {
 }
 
 #n_sec p{
-  padding: 2em;
+  padding: 1.2em
 }
 
 #s_sec{
@@ -440,7 +440,7 @@ img {
 }
 
 #s_sec p{
-  padding: 2em;
+  padding: 1.2em;
   text-align: right;
 }
 
@@ -450,7 +450,7 @@ img {
 }
 
 #a_sec p{
-  padding: 2em;
+  padding: 1.2em;
 }
 
 /* footer */
