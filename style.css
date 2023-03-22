@@ -335,7 +335,6 @@ img {
   flex-direction: row;
   padding: 0.3% 0.8%;
   text-align: center;
-  border: 1px solid black;
   transition: 0.5s;
   text-decoration: none;
   color: black;
@@ -346,9 +345,17 @@ img {
   font-size: 1.2em;
 }
 
+#first, #second, #third, #fourth{
+  border-right: 1px solid black;
+}
+
 .nav_page1:hover{
   background-color: rgb(189, 171, 148);
   transition: 0.5s;
+}
+
+.page1_nav a:hover{
+  border-radius: 21%;
 }
 
 /* information page*/
@@ -367,8 +374,36 @@ img {
   font-size: 16px;
 }
 
-#i1 #i2 #i3 #i4{
-  transition: 1s;
+#info_container1{
+  display: flex;
+  width: 100%;
+}
+
+#info_container2{
+  margin-top: 2%;
+  text-align: end;
+}
+
+#stat1{
+  width: 420px;
+}
+
+#stat2{
+  padding: 0.8em;
+}
+
+#chld1{
+ width: 65%;
+}
+
+#chld2{
+  width: 35%;
+  text-align: end;
+}
+
+
+.aboutus{
+  display: flex;
 }
 
 /* footer */
