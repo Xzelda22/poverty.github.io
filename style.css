@@ -374,12 +374,11 @@ img {
   font-size: 16px;
 }
 
-#info_container1{
+.info_container1{
   display: flex;
   width: 100%;
 }
-
-#info_container2{
+.info_container2{
   margin-top: 2%;
   text-align: end;
 }
@@ -401,9 +400,57 @@ img {
   text-align: end;
 }
 
+#dse1{
+  width: 30%;
+  height: 80%;
+}
+
+#dse2{
+  width: 70%;
+}
+
+#dse2 p{
+  padding: 2em;
+}
+
+#por_container{
+  width: 100%;
+}
 
 .aboutus{
   display: flex;
+}
+
+.aboutus p{
+  font-size: 1.09em;
+}
+
+#n_sec{
+  border-bottom: 1px solid black;
+  margin-right: 17%;
+}
+
+#n_sec p{
+  padding: 2em;
+}
+
+#s_sec{
+  margin-left: 17%;
+  border-bottom: 1px solid black;
+}
+
+#s_sec p{
+  padding: 2em;
+  text-align: right;
+}
+
+#a_sec{
+  border-bottom: 1px solid black;
+  margin-right: 17%;
+}
+
+#a_sec p{
+  padding: 2em;
 }
 
 /* footer */
