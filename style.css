@@ -361,7 +361,7 @@ img {
 /* information page*/
 .information {
   width: 85%;
-  height: 60vh;
+  height: auto;
   margin-left: 8%;
   margin-top: 1%;
   padding: 2%;
