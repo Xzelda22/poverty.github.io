@@ -47,6 +47,10 @@
               <span>Email:</span>
               <input type="text" placeholder="bendover98@gmail.com" required>
             </div>
+            <div class="input">
+              <span>Amount (USD):</span>
+              <input type="number" placeholder="35$" required>
+            </div>
             <div id="disclaimer">
               <p>All money goes to the charity. No profits taken by us.</p>
             </div>
@@ -73,11 +77,12 @@
             </div>
       </div>
       
-      <a href="confirmation.html" onclick="ConfirmPayment()">
-        <button class="submit">
-          Confirm payment
-        </button>
-      </a>
+      
+      <button class="submit" onclick="ConfirmPayment()">
+        <a href="confirmation.html" class="">
+          Confirm Payment
+        </a>
+      </button>
   </form>        
 </div>
 <!-- the donation form -->
